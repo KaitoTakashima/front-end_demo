@@ -40,9 +40,19 @@
 // myProfile.age = 99;
 // console.log(myProfile); // {name: "kai2", age: 99}
 
-function sayHello() {
-  console.log("こんにちは！");
+// //関数の定義
+// function sayHello() {
+//   console.log("こんにちは！");
+// }
+
+// //関数を実行する
+// sayHello(); //　こんにちは！
+
+//関数の定義
+function calcSum(num1, num2) {
+  return num1 + num2;
 }
 
 //関数を実行する
-sayHello();
+const calcsumNum = calcSum(10, 20);
+console.log(calcsumNum); // 30
