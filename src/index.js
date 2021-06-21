@@ -49,10 +49,16 @@
 // sayHello(); //　こんにちは！
 
 //関数の定義
-function calcSum(num1, num2) {
-  return num1 + num2;
-}
+// function calcSum(num1, num2) {
+//   return num1 + num2;
+// }
 
-//関数を実行する
-const calcsumNum = calcSum(10, 20);
-console.log(calcsumNum); // 30
+// //関数を実行する
+// const calcsumNum = calcSum(10, 20);
+// console.log(calcsumNum); // 30
+
+let num = 10;
+num = 20;
+
+let name = "kai";
+name = "kai2";
