@@ -231,3 +231,18 @@
 // } catch (error) {
 //   console.log(error.message); // 例外が発生
 // }
+
+//従来の文字列
+// const name = "kai";
+// const age = 22;
+
+// //変数の結合
+// const sentence = name + "は" + age + "歳です。";
+// console.log(sentence); // kaiは22歳です。
+
+//テンプレート文字列
+// const name = "kai";
+// const age = 22;
+
+// const sentence = `${name}は${age}歳です。`;
+// console.log(sentence); // kaiは22歳です。
