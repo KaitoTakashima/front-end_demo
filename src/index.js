@@ -223,3 +223,11 @@
 //     break;
 // }
 //その他の名前です
+
+//try catch
+// try {
+//   //例外を投げる
+//   throw new Error("例外が発生");
+// } catch (error) {
+//   console.log(error.message); // 例外が発生
+// }
