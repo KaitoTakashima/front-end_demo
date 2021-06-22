@@ -207,3 +207,19 @@
 //   console.log("その他の名前です");
 // }
 //その他の名前です
+
+//switch
+// const name = "kai";
+
+// switch (name) {
+//   case "tanaka":
+//     console.log("tanakaさんです");
+//     break;
+//   case "yamada":
+//     console.log("yamadaさんです");
+//     break;
+//   default:
+//     console.log("その他の名前です");
+//     break;
+// }
+//その他の名前です
