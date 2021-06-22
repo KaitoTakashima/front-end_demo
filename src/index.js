@@ -246,3 +246,45 @@
 
 // const sentence = `${name}は${age}歳です。`;
 // console.log(sentence); // kaiは22歳です。
+
+//従来の関数定義(function)
+// const func1 = function (name) {
+//   return `${name}です。`;
+// };
+// //アロー関数
+// const func2 = (name) => {
+//   return `${name}です。`;
+// };
+
+// console.log(func1("kai")); //kaiです。
+// console.log(func2("kai2")); //kai2です。
+
+//特徴１（引数が１つの時、カッコを省略できる）
+// const func = name => {
+//   return `${name}です。`;
+// }
+// console.log(func("kai")); //kaiです。
+
+//引数が2つ以上だとエラー
+// const func = name,age => {
+//   return `${name}です。`;
+// }
+// console.log(func("kai")); //kaiです。
+
+// const func2 = (name, age) => {
+//   return `${name}です。`;
+// };
+// console.log(func2("kai")); //kaiです。
+
+//特徴２(処理が1行で終わる時、「{}」と「return」は省略できる)
+// const func = (name) => `${name}です。`;
+
+// console.log(func("kai")); //kaiです。
+
+//特徴3(カッコで囲むことにより、1塊として認識させることも可能)
+// const func = () => ({
+//   name: " kai",
+//   age: 22
+// });
+
+// console.log(func()); //{name: "kai", age: 22}
