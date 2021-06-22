@@ -195,3 +195,15 @@
 // // 1
 // // 2
 // // 3
+
+//if else
+// const name = "kai";
+
+// if (name === "tanaka") {
+//   console.log("tanakaさんです");
+// } else if (name === "yamada") {
+//   console.log("yamadaさんです");
+// } else {
+//   console.log("その他の名前です");
+// }
+//その他の名前です
