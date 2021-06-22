@@ -172,3 +172,16 @@
 
 // const result2 = falseFlag ? true : false;
 // console.log(result2); // false
+
+// if ("") {
+//   console.log("実行");
+// }
+
+//for
+// const nums = [1, 2, 3];
+// for (let i = 0; i < nums.length; i++) {
+//   console.log(nums[i]);
+// }
+// // 1
+// // 2
+// // 3
