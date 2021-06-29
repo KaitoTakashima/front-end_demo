@@ -359,3 +359,12 @@
 
 // const list6 = [...list3, ...list4];
 // console.log(list6); // [1, 2, 3, 4]
+
+//オブジェクトのコピー
+// const obj1 = {
+//   title: "t1",
+//   content: "c1"
+// };
+// const obj2 = { ...obj1 };
+// console.log(obj2);
+// // {title: "t1", content: "c1"}
