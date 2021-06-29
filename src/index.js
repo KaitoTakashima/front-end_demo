@@ -339,3 +339,23 @@
 // };
 // welcomeMessage("kai"); //こんにちは、kaiさん
 // welcomeMessage(); //こんにちは、ゲストさん
+
+//配列を展開
+// const list = ["a", "b"];
+// console.log(list); // ["a","b"]
+// console.log(...list); // a b
+
+// 配列の一部を新しい配列としてまとめる
+// const list2 = [1, 2, 3, 4, 5];
+// const [num1, num2, ...sublist] = list2;
+// console.log(num1, num2, sublist);
+// // 1 2 [3, 4, 5]
+
+// 配列のコピー・結合
+// const list3 = [1, 2];
+// const list4 = [3, 4];
+// const list5 = [...list3];
+// console.log(list5); //[1, 2]
+
+// const list6 = [...list3, ...list4];
+// console.log(list6); // [1, 2, 3, 4]
