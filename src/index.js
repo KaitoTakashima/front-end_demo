@@ -388,3 +388,11 @@
 // };
 // console.log(userInfo2);
 // // {name2: "kai", age2: 22}
+
+// map関数
+// const list1 = [1, 2, 3, 4, 5];
+// const list2 = list1.map((item, index) => {
+//   console.log(`要素：${item}`, `index:${index}`);
+//   return item * 2;
+// });
+// console.log(list2);
