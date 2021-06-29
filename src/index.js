@@ -368,3 +368,23 @@
 // const obj2 = { ...obj1 };
 // console.log(obj2);
 // // {title: "t1", content: "c1"}
+
+// // オブジェクトの省略記法
+// const name = "kai";
+// const age = 22;
+// const userInfo = {
+//   name: name,
+//   age: age
+// };
+// console.log(userInfo);
+// // {name: "kai", age: 22}
+
+// //省略
+// const name2 = "kai";
+// const age2 = 22;
+// const userInfo2 = {
+//   name2,
+//   age2
+// };
+// console.log(userInfo2);
+// // {name2: "kai", age2: 22}
