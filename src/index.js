@@ -396,3 +396,11 @@
 //   return item * 2;
 // });
 // console.log(list2);
+
+//filter
+// const list3 = [2, 55, -20, 100, 1, 66];
+// const list4 = list3.filter((item, index) => {
+//   console.log(`要素:${item}`, `index:${index}`);
+//   return item >= 50;
+// });
+// console.log(list4);
