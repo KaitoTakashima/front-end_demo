@@ -288,3 +288,54 @@
 // });
 
 // console.log(func()); //{name: "kai", age: 22}
+
+// //従来の配列の値の取り出し方
+// const list = ["a", "b"];
+// const item1 = list[0];
+// const item2 = list[1];
+// console.log(item1, item2); //a b
+
+// //分割代入による値の取り出し方
+// const list = ["a", "b"];
+// const [item1, item2] = list;
+// console.log(item1, item2); //a b
+
+// //従来のオブジェクトの値の取り出し方
+// const userInfo = {
+//   name: "kai",
+//   age: 22
+// };
+// const username = userInfo.name;
+// const userage = userInfo.age;
+// console.log(username, userage); //kai 22
+
+// 分割代入による値の取り出し方
+// const userInfo = {
+//   name: "kai",
+//   age: 22
+// };
+// const { name, age } = userInfo;
+// console.log(name, age); //kai 22
+
+// 分割代入による値の取り出し方(変数変更)
+// const userInfo = {
+//   name: "kai",
+//   age: 22
+// };
+// const { name: newName, age: newAge } = userInfo;
+// console.log(newName, newAge); //kai 22
+
+//デフォルト値（オブジェクト）
+// const userInfo = {
+//   age: 22
+// };
+// const { name = "ゲスト", age } = userInfo;
+// console.log(name, age); //ゲスト 22
+
+// //デフォルト値(関数)
+// const welcomeMessage = (username = "ゲスト") => {
+//   const message = `こんにちは、${username}さん`;
+//   console.log(message);
+// };
+// welcomeMessage("kai"); //こんにちは、kaiさん
+// welcomeMessage(); //こんにちは、ゲストさん
