@@ -458,3 +458,17 @@
 // const student = new Student("kai", "フロントエンド");
 // console.log(student.name); // kai
 // student.greet(); //こんにちはkaiです。私はフロントエンドコースを受講しています。
+
+//DOM操作
+// const title = document.getElementById("title");
+// const content = document.getElementsByClassName("content");
+// console.log("タイトル要素", title);
+// console.log("コンテンツ要素", content);
+
+//DOM作成・追加
+// const content = document.createElement("div"); // 1
+// content.innerHTML = "<p>SPAとは</p>"; // 2
+// const contents = document.getElementById("contents"); // 3
+// contents.appendChild(content); // 4
+
+//DOMの削除
