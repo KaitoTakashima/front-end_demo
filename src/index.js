@@ -406,22 +406,37 @@
 // console.log(list4);
 
 //for文
-const list1 = [1, 2, 3, 4, 5];
-const list2 = [];
-for (let index = 0; index < list1.length; index++) {
-  const item = list1[index] * 2;
-  list2.push(item);
-}
-console.log(list2);
-// [2, 4, 6, 8, 10]
+// const list1 = [1, 2, 3, 4, 5];
+// const list2 = [];
+// for (let index = 0; index < list1.length; index++) {
+//   const item = list1[index] * 2;
+//   list2.push(item);
+// }
+// console.log(list2);
+// // [2, 4, 6, 8, 10]
 
-const list3 = [2, 55, -20, 100, 1, 66];
-const list4 = [];
-for (let index = 0; index < list3.length; index++) {
-  const item = list3[index];
-  if (item >= 50) {
-    list4.push(item);
-  }
-}
-console.log(list4);
-// [55, 100, 66]
+// const list3 = [2, 55, -20, 100, 1, 66];
+// const list4 = [];
+// for (let index = 0; index < list3.length; index++) {
+//   const item = list3[index];
+//   if (item >= 50) {
+//     list4.push(item);
+//   }
+// }
+// console.log(list4);
+// // [55, 100, 66]
+
+//Null合体演算
+// let defaultMessage = "エラー無し";
+// let errorMessage = null;
+
+// let message = errorMessage ?? defaultMessage;
+// console.log(message); // エラー無し
+
+// errorMessage = undefined;
+// message = errorMessage ?? defaultMessage;
+// console.log(message); // エラー無し
+
+// errorMessage = "";
+// message = errorMessage ?? defaultMessage;
+// console.log(message); // ""
