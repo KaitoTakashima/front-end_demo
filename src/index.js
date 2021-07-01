@@ -440,3 +440,21 @@
 // errorMessage = "";
 // message = errorMessage ?? defaultMessage;
 // console.log(message); // ""
+
+//クラス構文
+// class Student {
+//   constructor(name, course) {
+//     (this.name = name), (this.course = course);
+//   }
+
+//   greet() {
+//     console.log(
+//       `こんにちは${this.name}です。私は${this.course}コースを受講しています。`
+//     );
+//   }
+// }
+
+// //インスタンス生成
+// const student = new Student("kai", "フロントエンド");
+// console.log(student.name); // kai
+// student.greet(); //こんにちはkaiです。私はフロントエンドコースを受講しています。
