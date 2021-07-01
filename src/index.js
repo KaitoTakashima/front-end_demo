@@ -472,3 +472,5 @@
 // contents.appendChild(content); // 4
 
 //DOMの削除
+// const contents = document.getElementById("contents"); // 1
+// contents.remove(); //2
