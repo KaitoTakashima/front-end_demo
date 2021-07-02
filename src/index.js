@@ -474,3 +474,39 @@
 //DOMの削除
 // const contents = document.getElementById("contents"); // 1
 // contents.remove(); //2
+
+//ボタンのイベント例
+// const button = document.getElementById("button");
+// button.addEventListener("click", () => {
+//   alert("クリックされました");
+// });
+
+//入力欄が変更された時の値を取得
+// const input = document.getElementById("input");
+// input.addEventListener("change", (event) => {
+//   console.log(event.target.value);
+// });
+
+// preventDefault();
+// const button = document.getElementById("button");
+// button.addEventListener("click", (event) => {
+//   event.preventDefault();
+// });
+
+//バブリング
+// const box1 = document.getElementById("box1");
+// box1.addEventListener("click", () => {
+//   alert("親要素がクリックされました");
+// });
+
+// // const box2 = document.getElementById("box2");
+// // box2.addEventListener("click", () => {
+// //   alert("子要素がクリックされました");
+// // });
+
+// //stopPropagation()
+// const child = document.getElementById("child");
+// child.addEventListener("click", (e) => {
+//   e.stopPropagation();
+//   alert("子要素がクリックされました");
+// });
